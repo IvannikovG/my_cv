@@ -81,8 +81,9 @@ table {
 }
 
 .popping:hover {
-  -webkit-transform: scale(1.25, 1.25);
+  -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.25, 1.25);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .popping:hover::after {
@@ -107,7 +108,9 @@ table {
   display: inline-block;
   white-space: nowrap;
   animation: floatText 30s infinite linear;
-  padding-left: 100%; /*Initial offset*/
+  padding-left: 100%;
+  font-weight: bold;
+  color: #777;
 }
 .sitemessage:hover {
   animation-play-state: paused;

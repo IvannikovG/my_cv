@@ -52,8 +52,8 @@ function Footer() {
             <div style={styles.imageCenter}>
                 <img style={styles.image}
                  class='popping'
-                 src="https://e7.pngegg.com/pngimages/683/995/png-clipart-vkontakte-logo-facebook-messenger-computer-icons-facebook-blue-logo.png"
-                 onClick={()=> openInNewTab('https://vk.com/hs_tory')}></img>
+                 src='https://i.pinimg.com/originals/d0/26/57/d02657a9a2b0bda4cddd5a827d209774.png'
+                 onClick={()=> openInNewTab("https://mail.google.com/mail/?view=cm&fs=1&to=georgy.ivannikov@gmail.com&su=We found your resumee&body=Dear Georgii")}></img>
             </div>
             <div style={styles.imageRight}>
                 <img style={styles.image}

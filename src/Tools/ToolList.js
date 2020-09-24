@@ -18,7 +18,7 @@ const styles = {
 function ToolList() {
 
     const tools = [
-        {name: 'Flask', example: 'Several small websites, e.g. crawler for animal asylum or weather'},
+        {name: 'Flask', example: 'Several small websites, e.g. web crawler for animal asylum or weather'},
         {name: 'Django', example: 'Api with entries, containing information about game'},
         {name: 'PostgreSQL', example: 'Set up database for a web app'},
         {name: 'Docker', example: 'Creation and maintenance of container with jupyter notebook for neural network'},
