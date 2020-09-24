@@ -33,7 +33,6 @@ const styles = {
         border: '5px solid #ECE9E0',
     },
     descriptionTable: {
-        height: '200px',
         fontFamily: '"Lucida Sans Unicode", "Lucida Grande", Sans-Serif',
         textAlign: 'left',
         borderCollapse: 'separate',
@@ -60,7 +59,7 @@ function Description() {
                     <table style={styles.descriptionTable}
                     class='popping'>
                         <tr>
-                            <td class="td-description">Name</td> <td class="td-description">Georgii</td>
+                            <td class="td-description">Name</td> <td class="td-description">Georgii Ivannikov</td>
                         </tr>
                         <tr>
                             <td class="td-description">Age</td> <td class="td-description">24</td>
@@ -70,7 +69,7 @@ function Description() {
                             <td class="td-description">Saarland University MSc Visual Computing, ongoing</td>
                         </tr>
                         <tr>
-                            <td class="td-description">What i am looging for</td>
+                            <td class="td-description">Looking for</td>
                             <td class="td-description">Become part of Python or Clojure developers team</td>
                         </tr>
                     </table>
